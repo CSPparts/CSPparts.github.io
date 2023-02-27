@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- CSS Style -->
-  <link rel="stylesheet" href="static/css/style.css">  
+  <link rel="stylesheet" href="static/css/style.css"> 
   
   <!-- Color Skins -->
   <link rel="stylesheet" href="static/css/blue.css" name="skins"> 
@@ -34,8 +34,8 @@
     <script src="static/js/jquery-1.7.2.min.js"></script> <!-- jQuery library -->
     <script src="static/js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing --> 
     <script src="static/js/jquery-ui.min.js"></script> <!-- jQuery Ui --> 
-    <script src="static/js/jquery.cookie.js"></script> <!-- jQuery cookie --> 
-    <script src="static/js/jquery.uniform.min.js"></script> <!-- jQuery Uniform -->
+    <script src="static/js/jquery.cookie.js"></script> <!-- jQuery cookie -->
+    <script src="static/js/jquery.uniform.min.js"></script> <!-- jQuery Uniform --> 
     <script src="static/js/ddsmoothmenu.js"></script> <!-- Nav Menu ddsmoothmenu -->
     <script src="static/js/jquery.flexslider.js"></script> <!-- Flex Slider  -->
     <script src="static/js/jquery.eislideshow.js"></script> <!-- Elastic Slider  -->
@@ -87,9 +87,9 @@
                 <li><a href="slider_3.html">Slider 3</a></li>
               </ul>
             </li>
-            <li><a href="#1" class="active">Pages</a>
+            <li><a href="#1">Pages</a>
               <ul>
-                <li><a href="">About us</a></li>
+                <li><a href="about.html">About us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="team.html">Our Team</a></li>
                 <li><a href="process.html">Process</a></li>
@@ -115,12 +115,12 @@
                 </li>
               </ul>
             </li>
-            <li><a href="portfolio_4.html#4">Portfolio</a>
+            <li><a href="portfolio_4.html#4" class="active">Portfolio</a>
               <ul>
                 <li><a href="portfolio_2.html">2 Columns</a></li>
                 <li><a href="portfolio_3.html">3 Columns</a></li>
                 <li><a href="portfolio_4.html">4 Columns</a></li>
-                <li><a href="single_project_1.html">Single Project 1</a></li>
+                <li><a href="">Single Project 1</a></li>
                 <li><a href="single_project_2.html">Single Project 2</a></li>
               </ul>
             </li>
@@ -145,125 +145,196 @@
     </div><!-- End Container -->
   </header><!-- <<< End Header >>> -->
   
-  <div class="container clearfix">
+  <div class="container gallery clearfix">
   
-    <div class="sixteen columns"> <h1 class="page-title">About Us <span class="line"></span></h1> </div> <!-- Page Title -->
-  
-    <div id="description">
-      <div class="sixteen columns">
-        <div class="description">
-        <p>
-          Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Curabitur blandit tempus porttitor. Cum sociis.
-        </p>
-        </div>
-      </div>
-    </div><!-- End description -->
-    
-    <div class="two-thirds column">
-      <div class="who">
-        <h2 class="title">Who We Are ? <span class="line"></span></h2>
-        <p>
-          Sed at odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in          purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh.          Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. 
-          <br><br>
-          malesuada tortor, nec scelerisque lorem mattis.
-          Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer          commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum et rutrum. 
-        </p>
-        <br><br>
-      </div>
-    </div><!-- End who we are -->
-    
-    <div class="one-third column">
-      <div class="bottom">
-        <h2 class="title">Our Skills <span class="line"></span></h2>
-        <ul class="progress-bar">
+   <div class="sixteen columns"> <h1 class="page-title">Portfolio / <span class="gray2">Single Project 1</span><span class="line"></span></h1>
+   </div><!-- Page Title -->
+   
+   <div class="sixteen columns top-2">
+   <h2 class="title">MonsterUp <a href="#" data="Next Project" class="next-project"></a> 
+   <a href="#" data="Previous Project" class="prev-project disabled"></a></h2>
+   </div><!-- Project Title -->
+   
+   <!-- Start Project Slider -->
+   <div class="twelve columns top bottom">
+   
+     <div class="slider-project">
+       
+      <div class="flex-container">
+	  <div class="flexslider2">
+		<ul class="slides">
           <li>
-            <h5>Web Design ( 40% )</h5>
-            <div class="meter"><span style="width: 40%"></span></div><!-- Edite width here -->
-          </li>
-          <li>
-            <h5>Wordpress ( 80% )</h5>
-            <div class="meter"><span style="width: 80%"></span></div><!-- Edite width here -->
-          </li>
-          <li>
-            <h5>Branding ( 100% )</h5>
-            <div class="meter"><span style="width: 100%"></span></div><!-- Edite width here -->
-          </li>
-          <li>
-            <h5>SEO Optmization ( 60% )</h5>
-            <div class="meter"><span style="width: 60%"></span></div><!-- Edite width here -->
-          </li>
+            <div class="caption">
+			<a href="static/picture/photo-1-1.jpg" rel="prettyPhoto[gallery1]"><img src="static/picture/photo-1-1.jpg">
+            <span class="hover-effect big zoom"></span></a>
+            </div><!-- hover effect -->
+		  </li>
+		  <li>
+            <div class="caption">
+			<a href="static/picture/photo-1-2.jpg" rel="prettyPhoto[gallery1]"><img src="static/picture/photo-1-2.jpg">
+            <span class="hover-effect big zoom"></span></a>
+            </div><!-- hover effect -->
+		  </li>
         </ul>
+	  </div>
       </div>
-    </div><!-- End skills -->
+      
+     </div><!-- End slider-project -->  
+   
+   </div>
+   <!-- End -->
+   
+   <!-- Start Project Details -->
+   <div class="four columns  bottom">
+   
+     <h2 class="title top-5  bottom-2">About Project <span class="line"></span></h2>
+     
+     <div class="about-project bottom">
+       <p>
+         Donec seid odio dui. Nullalit libero, alea pharetra augue. Nullam id dolor ideacto vehicula SockMonkee lorem dolor. <br><br>
+         Donec seid odio dui. Nullalit libero, alea pharetra augue. Nullam id dolor ideacto vehicula SockMonkee lorem dolor.
+       </p>
+     </div>
+     
+     <div class="clearfix"></div>
+     
+     <h2 class="title bottom-2">Job Description <span class="line"></span></h2>
+     
+      <ul class="square-list job bottom-2">
+        <li><a href="#">HTML/CSS</a></li>
+        <li><a href="#">Logo Design</a></li>
+        <li><a href="#">User Interface Design</a></li>
+      </ul><!-- End square-list -->
+      
+      
+      <a href="#" class="button medium color">Launch Project</a>
+   
+   </div>
+   <!-- End Project Details -->
+   
+   <div class="clearfix"></div>
+   
+   <!-- Start Related Projects -->
+   
+   <div class="recent-work  clearfix">
     
-    <div class="clearfix"></div>
-  
-    <div class="meet-team">
-      <div class="sixteen columns">
-        <h2 class="title">Meet The Team <span class="line"></span></h2>
-        <p>
-          Sed at odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in          purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh.          Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. malesuada tortor, nec          scelerisque lorem mattis.
-        </p>
-        </div>
-        
-        <div class="clearfix"></div>
-        
-        <ul class="team">
-          
-          <!-- item 1 -->
-          <li class="one-third column">
-            <img src="static/picture/member-1.jpg" alt="">
-            <h3>
-              Mohammed Saad
-              <a href="#" class="linkedin">linkedin</a>
-              <a href="#" class="skype">skype</a>
-              <a href="#" class="facebook">facebook</a>
-              <a href="#" class="twitter">twitter</a>
-            </h3>
-            <p>
-              Sed at odio ut arcu fringilla dictum  magna nisi.Aliquam at erat in purus  velit vel dolo dictum  magna nisi.Aliquam 
-              at erat in purus  velit vel dolo 
-            </p>
-          </li>
-          <!-- End -->
-          
-          <!-- item 2 -->
-          <li class="one-third column">
-            <img src="static/picture/member-1.jpg" alt="">
-            <h3>
-              Mohammed Saad
-              <a href="#" class="linkedin">linkedin</a>
-              <a href="#" class="skype">skype</a>
-              <a href="#" class="facebook">facebook</a>
-              <a href="#" class="twitter">twitter</a>
-            </h3>
-            <p>
-              Sed at odio ut arcu fringilla dictum  magna nisi.Aliquam at erat in purus  velit vel dolo dictum  magna nisi.Aliquam 
-              at erat in purus  velit vel dolo 
-            </p>
-          </li>
-          <!-- End -->
-          
-          <!-- item 3 -->
-          <li class="one-third column">
-            <img src="static/picture/member-1.jpg" alt="">
-            <h3>
-              Mohammed Saad
-              <a href="#" class="linkedin">linkedin</a>
-              <a href="#" class="skype">skype</a>
-              <a href="#" class="facebook">facebook</a>
-              <a href="#" class="twitter">twitter</a>
-            </h3>
-            <p>
-              Sed at odio ut arcu fringilla dictum  magna nisi.Aliquam at erat in purus  velit vel dolo dictum  magna nisi.Aliquam 
-              at erat in purus  velit vel dolo 
-            </p>
-          </li>
-          <!-- End -->
-          
-        </ul><!-- End team -->
-        
-    </div><!-- End meet team -->
+     <div class="slidewrap">
+    
+      <div class="sixteen columns"> <h2 class="title">Related Projects <span class="line"></span></h2> </div>
+      
+      <ul class="slidecontrols">
+      <li><a href="#sliderName" class="next">Next</a></li><li><a href="#sliderName" class="prev">Prev</a></li>
+	  </ul>	
+      
+      <ul class="slider" id="sliderName">
+      
+      <li class="slide">	
+      
+      <!-- item 1 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href=""><img src="static/picture/thumb-1.jpg" alt="" class="pic"> 
+          <span class="hover-effect link"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      <!-- item 2 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href="static/picture/thumb-2.jpg" rel="prettyPhoto[gallery2]">
+          <img src="static/picture/thumb-2.jpg" alt="" class="pic">
+          <span class="hover-effect zoom"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      <!-- item 3 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href=""><img src="static/picture/thumb-3.jpg" alt="" class="pic"> 
+          <span class="hover-effect link"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      <!-- item 4 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href="static/picture/thumb-4.jpg" rel="prettyPhoto[gallery2]">
+          <img src="static/picture/thumb-4.jpg" alt="" class="pic"> 
+          <span class="hover-effect zoom"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      </li><!-- End slide -->
+      
+      <li class="slide">	
+      
+      <!-- item 5 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href=""><img src="static/picture/thumb-1.jpg" alt="" class="pic"> 
+          <span class="hover-effect link"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      <!-- item 6 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href="static/picture/thumb-2.jpg" rel="prettyPhoto[gallery3]">
+          <img src="static/picture/thumb-2.jpg" alt="" class="pic">
+          <span class="hover-effect zoom"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      <!-- item 7 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href=""><img src="static/picture/thumb-3.jpg" alt="" class="pic"> 
+          <span class="hover-effect link"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      <!-- item 8 -->
+      <div class="four columns item">
+          <div class="caption">
+          <a href="static/picture/thumb-4.jpg" rel="prettyPhoto[gallery3]">
+          <img src="static/picture/thumb-4.jpg" alt="" class="pic"> 
+          <span class="hover-effect zoom"></span></a>
+          </div><!-- hover effect -->
+          <h4><a href="">MonsterUp</a></h4>
+          <p>design ,graphic ,illustration</p>
+      </div>
+      <!-- End -->
+      
+      </li><!-- End slide -->
+      
+      </ul>
+      
+      </div><!-- End slidewrap -->
+    
+    </div><!-- End Related Projects -->
+   
+       
      
   </div><!-- <<< End Container >>> -->
   
